@@ -1,5 +1,6 @@
 # fluentd-deploytools
 Step
+
 1.install tools
 install fluentd 
 td-agent-gem install fluent-plugin-elasticsearch
