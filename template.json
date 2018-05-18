@@ -1,0 +1,24 @@
+{
+  "index_patterns": ["bu_module_logtype-*"],
+  "setttings": {},
+  "template": "bu_module_logtype-*",
+  "mappings": {
+    "fluentd": {
+      "properties" : {
+          "host" : {
+            "type" : "keyword"
+          },
+          "req" : {
+            "type" : "long"
+          },
+          "status" : {
+            "type" : "integer"
+          },
+          "timestamp" : {
+            "type" : "date",
+            "format" : "epoch_second"
+          }
+      }
+    }
+  }
+}
