@@ -14,5 +14,7 @@ Example:
 python gmet.py A_B_C   
 
 A means your Business
+
 B means your module
+
 C means your log name
